@@ -1,7 +1,8 @@
 # Split APK Tools
 ## Prereqs
-- python with BeautifulSoup4
+- python with BeautifulSoup4 and wrapt (also python-is-python3)
 - up-to-date apktool on PATH
+- bash
 - adb on PATH with target device connected (root not required)
 ## Usage
 - install desired app on target device (eg from play store)
@@ -11,4 +12,5 @@
 - `./CLEAN.sh`: removes temporary files to prepare for modding new app
 ## Acknowledgements
 - https://github.com/levyitay/AddSecurityExceptionAndroid
-- XDa developers forums, page explaining the fixes
+- XDA developers forums, page explaining the fixes
+
