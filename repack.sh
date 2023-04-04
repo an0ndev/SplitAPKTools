@@ -1,3 +1,4 @@
+#!/bin/bash
 set -e
 
 base_dir="base"

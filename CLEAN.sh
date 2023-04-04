@@ -1,3 +1,4 @@
+#!/bin/bash
 for f in *.apk; do
 apkname=${f%.*}
 rm -rf $apkname

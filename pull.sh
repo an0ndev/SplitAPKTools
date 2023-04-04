@@ -1,3 +1,4 @@
+#!/bin/bash
 PACKAGE_ID=$1
 
 APK_PATHS=$(adb shell pm path $PACKAGE_ID | cut -c 9-)
